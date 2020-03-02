@@ -27,5 +27,5 @@ def using_concat(array, more_favs)
 end
 
 def using_insert(array)
-  
+  array.insert(4)
 end
