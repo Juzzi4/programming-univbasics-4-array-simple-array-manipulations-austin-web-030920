@@ -11,8 +11,7 @@ def using_pop(array)
 end
 
 def pop_with_args(array)
-  pop_with_args = ["Great Dane", "Golden Retriever", "Chihuahua", "Shiba Inu"]
- pop_with_args = pop_with_args.pop(2)
+ pop_with_args = array.pop(2)
 end
 
 def using_shift()
